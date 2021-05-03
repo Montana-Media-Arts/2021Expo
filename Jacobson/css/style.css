@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500;600&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+
+body {
+  background-color: #bb82d1;
+}
+
+#canvas {
+  background-color: #fcd9e5;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+#canvas2 {
+  background-color: #fcd9e5;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+div {
+}
+ #story {
+
+background-color: white;
+width: 490px;
+margin-top: 0px;
+border-radius: 15px;
+padding: 1em;
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+ }
+ p {
+   margin-left: 200px;
+   margin-right: 200px;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ button {
+   padding: 1em;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bold;
+   margin-top: 10px;
+   border-width: thin;
+   border-radius: 15px;
+   background-color: #ff5e95;
+ }
+h1 {
+  font-family: 'Pacifico', cursive;
+}
