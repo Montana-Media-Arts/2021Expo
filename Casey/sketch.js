@@ -5,8 +5,8 @@ let img;
 let img2;
 
 function preload() {
-    img = loadImage('assets/pebbles.jpg');
-    img2 = loadImage('assets/waves.jpg');
+    img = loadImage('Assets/pebbles.jpg');
+    img2 = loadImage('Assets/waves.jpg');
   }
 // dolphin setup
 function setup() {
