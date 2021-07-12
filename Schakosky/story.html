@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Alec S">
+
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./scripts/script.js"></script>
+  </head>
+
+  <body>
+    <h1>Jack Detective</h1>
+
+    <div id="story">
+      <p>This is a choice-based, text adventure story about a male detective in 19th century London, as all detective stories do.
+        <br>
+        He has a dark past that eventually catches up to him, as all detectives have.
+        <br>
+        You will play as this detective and your choices will affect the story.
+        <br>
+        Are you ready to begin?
+        <br>
+        <br>
+        If so, type "Yes" in the text box below.
+      </p>
+    </div>
+
+    <!--Begin story-->
+    <input class="text center" type="text" size="32" id="option" value="> Yes/No">
+    <button class="button center" id="submit" onclick="getOption1();">>Begin</button>
+    <!--Begin story pt. 2-->
+    <input class="text center" type="text" size="32" id="option2" value="> Next" style="display:none">
+    <button class="button center" id="submit2" onclick="getOption2();" style="display:none">>Continue</button>
+    <!--1st choice - talk or examine-->
+    <input class="text center" type="text" size="32" id="option3" value="> Talk/Examine" style="display:none">
+    <button class="button center" id="submit3" onclick="getOption3();" style="display:none">>Continue</button>
+    <!--1st choice -> Talk; -->
+    <input class="text center" type="text" size="32" id="option4" value="> Next" style="display:none">
+    <button class="button center" id="submit4" onclick="getOption4();" style="display:none">>Continue</button>
+    <!--1st -> Examine; -->
+    <input class="text center" type="text" size="32" id="option5" value="> Next" style="display:none">
+    <button class="button center" id="submit5" onclick="getOption5();" style="display:none">>Continue</button>
+    <!--Talk continued -->
+    <input class="text center" type="text" size="32" id="option6" value="> Ask a question" style="display:none">
+    <button class="button center" id="submit6" onclick="getOption6();" style="display:none">>Continue</button>
+    <!--Examine continued-->
+    <input class="text center" type="text" size="32" id="option7" value="> Doop" style="display:none">
+    <button class="button center" id="submit7" onclick="getOption7();" style="display:none">>Continue</button>
+
+    <p></p>
+
+      <div>
+        <audio controls autoplay loop>
+          <source src="./media/oliviaalee-playlist.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+  </body>
+</html>
